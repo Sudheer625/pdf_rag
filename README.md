@@ -1,5 +1,5 @@
 ```md
-📄 # PDF RAG Chatbot (Django + Ollama + FAISS)
+📄  #PDF RAG Chatbot (Django + Ollama + FAISS)
 
 A Retrieval Augmented Generation (RAG) based PDF Chatbot built using **Python, Django, Ollama, FAISS**, and **HuggingFace embeddings**.  
 Users can upload PDF documents and ask questions — the system retrieves relevant content and generates answers locally using LLM.
