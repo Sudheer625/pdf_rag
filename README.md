@@ -1,4 +1,3 @@
----
 ```md
 # 📄 PDF RAG Chatbot (Django + Ollama + FAISS)
 
@@ -6,7 +5,7 @@ A Retrieval Augmented Generation (RAG) based PDF Chatbot built using **Python, D
 Users can upload PDF documents and ask questions — the system retrieves relevant content and generates answers locally using LLM.
 
 This project runs completely **offline** using Ollama.
-
+```
 ---
 
 ## 🚀 Features
@@ -167,9 +166,3 @@ Name : Singidi Sai Naga Sudheeer
 * Django
 
 ---
-
-## 📜 License
-
-MIT License
-
-```
