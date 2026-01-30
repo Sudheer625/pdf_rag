@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF RAG Chatbot</title>
+</head>
+<body>
+
+<h2>PDF Chatbot</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="question" placeholder="Ask something..." required>
+    <button type="submit">Ask</button>
+</form>
+
+{% if answer %}
+<hr>
+<b>Answer:</b>
+<p>{{ answer }}</p>
+{% endif %}
+
+</body>
+</html>
